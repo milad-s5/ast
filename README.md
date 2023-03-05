@@ -69,6 +69,7 @@ chmod +x ./Installation.sh
 ./Installation.sh
 ```
 
+---
 Step 1. Clone or download this repository and set it as the working directory, create a virtual environment and install the dependencies.
 
 ```
