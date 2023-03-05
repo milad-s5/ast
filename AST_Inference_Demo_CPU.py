@@ -98,7 +98,7 @@ label_csv = './egs/audioset/data/class_labels_indices.csv'       # label and ind
 labels = load_label(label_csv)
 
 # Get a sample audio and make feature for predict
-sample_path = './sample_audios/baby-cry-16k.wav'
+sample_path = './sample_audios/gun-18ak.wav'
 feats = make_features(sample_path, mel_bins=128)           # shape(1024, 128)
 feats_data = feats.expand(1, input_tdim, 128)           # reshape the feature
 feats_data = feats_data.to(torch.device('cpu'))#("cuda:0"))
