@@ -62,6 +62,13 @@ Please cite our paper(s) if you find this repository useful. The first paper pro
   
 ## Getting Started  
 
+### Oneshot running:
+```
+git clone https://github.com/milad-s5/ast
+chmod +x ./Installation.sh
+./Installation.sh
+```
+
 Step 1. Clone or download this repository and set it as the working directory, create a virtual environment and install the dependencies.
 
 ```
