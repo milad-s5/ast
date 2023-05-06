@@ -1,4 +1,5 @@
 # install python 3.8
+sudo apt-get install sox
 python3.8 -m venv venv
 source venv/bin/activate
 which python3.8
